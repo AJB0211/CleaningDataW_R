@@ -133,8 +133,6 @@ $(document).ready(function () {
 <h3>Note:</h3>
 <p>This document mirrors the functionality of the <code>run.analysis.R</code> script with visualization and annotation of the data cleaning process.</p>
 </div>
-<div id="note-to-self-use-hdf5-for-experience" class="section level1">
-<h1>NOTE TO SELF: USE HDF5 FOR EXPERIENCE</h1>
 <div id="packages" class="section level2">
 <h2>Packages</h2>
 <pre class="r"><code>suppressMessages(library(dplyr))
@@ -363,7 +361,6 @@ freq_summary &lt;- freq %&gt;% group_by(subject,activity) %&gt;% summarize_all(m
 <div id="running" class="section level2">
 <h2>Running</h2>
 <p>Run <code>source(&quot;run_analysis.R&quot;)</code> to produce the saved raw, clean, and averaged data sets as described previously. The workspace is cleaned with <code>cleanWorkspace.R</code>, removing all intermediates and leaving the <code>time_summary</code> and <code>freq_summary</code> tbl_df objects. The raw and cleaned data can be imported as data frames using the respective <code>readRaw.R</code> and <code>readClean.R</code> scripts. After <code>run_analysis.R</code> has been run once, the cleaned data can be imported as tbl_df objects again using <code>readAve.R</code>.</p>
-</div>
 </div>
 
 

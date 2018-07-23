@@ -12,8 +12,6 @@ output:
 ### Note:  
 This document mirrors the functionality of the `run.analysis.R` script with visualization and annotation of the data cleaning process.
 
-# NOTE TO SELF: USE HDF5 FOR EXPERIENCE
-
 ## Packages
 
 ```r
